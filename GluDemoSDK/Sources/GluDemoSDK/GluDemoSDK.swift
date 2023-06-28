@@ -1,6 +1,5 @@
 public struct GluDemoSDK {
-    public private(set) var text = "Hello, World!"
+    public static let shared: GluDemoSDK = .init()
 
-    public init() {
-    }
+    public init() { }
 }
